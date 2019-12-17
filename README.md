@@ -1,10 +1,8 @@
 ## 简介
 
-后台前端解决方案，它基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)实现。
+后台前端解决方案，基于 [vue](https://github.com/vuejs/vue) 和 [element-ui](https://github.com/ElemeFE/element)实现。
 
-- [在线预览](https://panjiachen.github.io/vue-element-admin)
-
-### 目录结构描述
+## 目录结构描述
 
 ```
 ├── api                   接口请求
@@ -32,12 +30,6 @@
 ## 开发
 
 ```bash
-# 克隆项目
-git clone https://github.com/PanJiaChen/vue-element-admin.git
-
-# 进入项目目录
-cd vue-element-admin
-
 # 安装依赖
 npm install
 
