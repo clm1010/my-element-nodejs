@@ -270,6 +270,8 @@ module.exports = {
         objectsInObjects: false
       }
     ],
-    'array-bracket-spacing': [2, 'never']
+    'array-bracket-spacing': [2, 'never'],
+    'space-before-function-paren': 0,
+    'eslint-disable-next-line': 0
   }
 }
