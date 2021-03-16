@@ -106,10 +106,24 @@
           </el-row>
           <el-row>
             <el-col :span="24">
-              <el-form-item label="封面：" :label-width="'60px'">
+              <el-form-item label="封面：" :label-width="labelWidth">
                 <a v-if="postForm.cover" :href="postForm.cover" target="_black">
-                  <img :src="postForm.cover" class="preview-img">
+                  <img :src="postForm.cover" class="preview-img" />
                 </a>
+                <span v-else>无</span>
+              </el-form-item>
+            </el-col>
+          </el-row>
+          <el-row>
+            <el-col :span="24">
+              <el-form-item label="目录：" :label-width="labelWidth">
+                <div
+                  v-if="postForm.contents && postForm.contents.length > 0"
+                  class="contents-wrapper"
+                >
+                  <el-tree />
+                </div>
+                <span v-else>无</span>
               </el-form-item>
             </el-col>
           </el-row>
